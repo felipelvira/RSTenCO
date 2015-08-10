@@ -13,9 +13,11 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp\
+    MatToQImage.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h\
+    MatToQImage.h
 
 FORMS    += mainwindow.ui
 
